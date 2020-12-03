@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-vstest/master/src/ReportPortal.VSTest.TestLogger/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "",
+    "project": "",
+    "authentication": {
+      "uuid": ""
+    }
+  },
+  "launch": {
+    "name": "local",
+    "description": "local test launch",
+    "debugMode": false,
+    "tags": [],
+    "attributes": [ "qa", "os:win10", "agent:local" ]
+  },
+  "Extensions": {
+    "SourceBack": {
+      "OffsetUp": 4,
+      "OffsetDown": 2
+    }
+  }
+}
